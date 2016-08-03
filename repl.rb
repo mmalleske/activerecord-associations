@@ -8,7 +8,7 @@ require_relative 'models/theater_movie.rb'
 
 ActiveRecord::Base.establish_connection(
   adapter:  'postgresql',
-  database: 'devflix',
+  database: 'dub6flix',
   host:     'localhost'
 )
 
